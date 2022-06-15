@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- ppt is cool.-->
+<!-- ppt is cool.-->
+<!-- ppt is cool.-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Race</title>
+    <link rel="stylesheet" href="h.css">
+</head>
+
+<body>
+    <nav>
+        <label for="search">Search</label>
+        <input type="text" placeholder="search" id="search">
+        <button>Login</button>
+        <button>Sign up</button>
+    </nav>
+    <h1>Race Registration!</h1>
+    <form action="">
+        <div>
+            <label for="firstname" class="tag">First Name</label>
+            <input type="text" placeholder="firstname" name="firstname" id="firstname" required>
+            <label for="lastname" class="tag">Last Name</label>
+            <input type="text" name="lastname" placeholder="lastname" id="lastname" required>
+        </div>
+        <br>
+        <p class="tag">Select a race: </p>
+        <div>
+            <input type="radio" name="race" id="fun" value="fun">
+            <label for="fun">Fun Run 5k</label>
+        </div>
+        <div>
+            <input type="radio" name="race" id="half" value="half">
+            <label for="half">Half Marathon</label>
+        </div>
+        <div>
+            <input type="radio" name="race" id="full" value="full">
+            <label for="full">Full Marathon</label>
+        </div>
+        <br>
+        <div>
+            <label for="email" class="tag">Email</label>
+            <input type="email" name="email" id="email" placeholder="email" required>
+            <label for="password" class="tag">Password</label>
+            <input type="password" id="password" placeholder="password" required>
+        </div>
+        <br>
+        <div>
+            <label for="agegrps" class="tag">Select Age Group</label>
+            <select name="agegrps" id="agegrps">
+                <option value="under18">Under 18</option>
+                <option value="under30">18-30</option>
+                <option value="under50">30-50</option>
+                <option value="above50">50+</option>
+            </select>
+        </div>
+        <br>
+        <button id="register">Register</button>
+    </form>
+</body>
+
+</html>
